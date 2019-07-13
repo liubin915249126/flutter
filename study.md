@@ -20,4 +20,4 @@
     super.didChangeAppLifecycleState(state);
   }
 ```
-[](https://github.com/CarGuo/GSYGithubAppFlutter)
+[q](https://github.com/CarGuo/GSYGithubAppFlutter)

@@ -55,7 +55,11 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
     });
   }
-
+  void _decrementCounter() {
+     setState(() {
+       _counter--;
+     });
+  }
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -95,6 +99,11 @@ class _MyHomePageState extends State<MyHomePage> {
             new Text(
               '$_counter',
               style: Theme.of(context).textTheme.display1,
+            ),
+            new IconButton(
+              icon: new Icon(Icons.search),
+              tooltip: 'Search',
+              onPressed: _decrementCounter,
             ),
           ],
         ),
