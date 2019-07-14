@@ -7,6 +7,7 @@
    open ~/.bash_profile
    source  ~/.bash_profile
    flutter doctor
+   git clone -b stable https://github.com/flutter/flutter.git
 ```
 #### brew 
 cd "$(brew --repo)"
@@ -83,3 +84,20 @@ flutter emulators --create [--name xyz]
 flutter pub get
 flutter create
 rm ./flutter/bin/cache/lockfile
+
+##### Error: The argument type 'Null Function(StringBuffer)' can't be assigned to the parameter type 'Iterable<DiagnosticsNode> Function()'...
+版本过高
+flutter 安装目录
+```bash
+  git tag
+  git checkout -b v1.5.8
+  删除flutter/bin/cache 内容
+  flutter doctor
+```
+
+flutter channel stable flutter channel beta
+flutter upgrade
+
+cached_network_image: ^1.1.0
+path_provider: ^1.1.2
+sqflite: ^1.1.0

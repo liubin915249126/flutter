@@ -6,7 +6,7 @@ import 'package:gsy_github_app_flutter/common/redux/middleware/epic_store.dart';
 /// A function that transforms one stream of actions into another
 /// stream of actions.
 ///
-/// Actions in, actions out.
+/// ReduxActions in, actions out.
 ///
 /// The best part: Epics are based on Dart Streams. This makes routine tasks
 /// easy, and complex tasks such as asynchronous error handling, cancellation,
@@ -16,11 +16,11 @@ import 'package:gsy_github_app_flutter/common/redux/middleware/epic_store.dart';
 /// through the rest of the middleware chain.
 ///
 /// Epics run alongside the normal Redux dispatch channel, meaning you cannot
-/// accidentally "swallow" an incoming action. Actions always run through the
+/// accidentally "swallow" an incoming action. ReduxActions always run through the
 /// rest of your middleware chain to your reducers before your Epics even
 /// receive the next action.
 ///
-/// Note: Since the Actions you emit from your Epics are dispatched to your
+/// Note: Since the ReduxActions you emit from your Epics are dispatched to your
 /// store, writing an Epic that simply returns the original actions Stream will
 /// result in an infinite loop. Do not do this!
 ///
