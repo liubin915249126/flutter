@@ -67,6 +67,11 @@ brew link usbmuxd
 brew install --HEAD libimobiledevice
 brew install ideviceinstaller
 
+brew upgrade cocoapods
+pod setup
+sudo gem install cocoapods
+gem sources --add https://gems.ruby-china.com/ --remove https://gems.ruby-china.org/ 
+
 #### ios-deploy out of date (1.9.4 is required). To upgrade with Brew:
 brew upgrade ios-deploy
 #### Flutter plugin not installed; this adds Flutter specific functionality
@@ -75,3 +80,6 @@ brew upgrade ios-deploy
 #### No connected devices
 flutter emulators --launch <emulator id> apple_ios_simulator • iOS Simulator • Apple
 flutter emulators --create [--name xyz]
+flutter pub get
+flutter create
+rm ./flutter/bin/cache/lockfile
