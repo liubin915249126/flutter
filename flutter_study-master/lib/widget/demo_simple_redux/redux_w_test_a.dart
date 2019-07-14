@@ -7,7 +7,7 @@ class TestWidgetA extends StatelessWidget {
   Widget build(BuildContext context) {
     return new StoreConnector<int, VoidCallback>(
       converter: (store) {
-        return () => store.dispatch(Actions.Increment);
+        return () => store.dispatch(ReduxActions.Increment);
       },
       builder: (context, callback) {
         return new Padding(

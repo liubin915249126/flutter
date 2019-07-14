@@ -1,9 +1,9 @@
-enum Actions { Increment, Decrement }
+enum ReduxActions { Increment, Decrement }
 
 int counterReducer(int state, dynamic action) {
-  if (action == Actions.Increment) {
+  if (action == ReduxActions.Increment) {
     return state + 1;
-  } else if (action == Actions.Decrement) {
+  } else if (action == ReduxActions.Decrement) {
     return state - 1;
   }
 

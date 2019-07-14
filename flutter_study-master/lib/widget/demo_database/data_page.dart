@@ -485,7 +485,7 @@ class LoginWidget extends StatelessWidget {
           ),
           maxLines: 1,
           onSubmitted: (text) {
-            FocusScope.of(context).reparentIfNeeded(node);
+            // FocusScope.of(context).reparentIfNeeded(node);
           },
         ),
         new TextField(
