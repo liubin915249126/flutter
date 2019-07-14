@@ -101,3 +101,6 @@ flutter upgrade
 cached_network_image: ^1.1.0
 path_provider: ^1.1.2
 sqflite: ^1.1.0
+
+#####  Target 'Runner' has copy command from 
+Legacy Build System

@@ -113,8 +113,8 @@ class ImageView extends StatelessWidget {
       case loadImgWithCache:
         widget = new CachedNetworkImage(
           imageUrl: imgUrl,
-          placeholder: new CircularProgressIndicator(),
-          errorWidget: new Icon(Icons.error),
+          // placeholder: new CircularProgressIndicator(),
+          // errorWidget: new Icon(Icons.error),
         );
         break;
       case loadImgWithFade:
