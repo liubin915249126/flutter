@@ -7,6 +7,7 @@
    open ~/.bash_profile
    source  ~/.bash_profile
    flutter doctor
+   flutter run
    git clone -b stable https://github.com/flutter/flutter.git
 ```
 #### brew 

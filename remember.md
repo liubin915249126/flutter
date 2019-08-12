@@ -2,6 +2,7 @@
 [rxDart](https://github.com/Sky24n/flutter_wanandroid)
 [zhihu](https://github.com/HackSoul/zhihu-flutter)
 [flutter_study](https://github.com/zhujian1989/flutter_study)
+[wanandroid_flutter](https://github.com/yechaoa/wanandroid_flutter)
 
 8183245a87b7d4652b3f
 dba3f14d7452b5ff526158aae72406978a534f73
