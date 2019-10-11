@@ -81,9 +81,8 @@ brew upgrade ios-deploy
 #### Dart plugin not installed; this adds Dart specific functionality.
 
 #### No connected devices
-flutter emulators --launch <emulator id>
-apple_ios_simulator • iOS Simulator • Apple
-flutter emulators --create [--name xyz]
+flutter emulators --launch  apple_ios_simulator • iOS Simulator • Apple
+flutter emulators --create xyz
 flutter pub get
 flutter create
 rm ./flutter/bin/cache/lockfile
@@ -107,3 +106,6 @@ sqflite: ^1.1.0
 
 #####  Target 'Runner' has copy command from 
 Legacy Build System
+
+#### Error executing simctl: 69
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
