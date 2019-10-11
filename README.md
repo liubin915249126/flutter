@@ -8,6 +8,7 @@
    source  ~/.bash_profile
    flutter doctor
    flutter run
+   flutter upgrade
    git clone -b stable https://github.com/flutter/flutter.git
 ```
 #### brew 
