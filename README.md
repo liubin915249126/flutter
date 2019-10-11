@@ -80,7 +80,8 @@ brew upgrade ios-deploy
 #### Dart plugin not installed; this adds Dart specific functionality.
 
 #### No connected devices
-flutter emulators --launch <emulator id> apple_ios_simulator • iOS Simulator • Apple
+flutter emulators --launch <emulator id>
+apple_ios_simulator • iOS Simulator • Apple
 flutter emulators --create [--name xyz]
 flutter pub get
 flutter create
