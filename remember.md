@@ -7,3 +7,4 @@
 [gsy](https://github.com/CarGuo/gsy_github_app_flutter)
 8183245a87b7d4652b3f
 dba3f14d7452b5ff526158aae72406978a534f73
+https://segmentfault.com/a/1190000020683935#articleHeader21
